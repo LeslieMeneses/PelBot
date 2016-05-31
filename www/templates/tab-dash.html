@@ -1,0 +1,21 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Welcome to Ionic</h2>
+    <button class="button" ng-click="getData()">Click for get the name</button>
+    <p>Name: {{firstname}} {{lastname}}</p>
+    <div class="buttons">
+      <div class="buttons-three text-center">
+        <button class="button icon-left ion-arrow-left-c"
+              ng-click="upEvent">Left</button>
+        <button class="button icon-left ion-arrow-up-c"
+                ng-click="upEvent">Up</button>
+        <button class="button icon-left ion-arrow-right-c"
+                ng-click="upEvent">Right</button>
+      </div>
+      <div class="bottons-one text-center">
+        <button class="button icon-left ion-arrow-down-c"
+              ng-click="upEvent">Down</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
